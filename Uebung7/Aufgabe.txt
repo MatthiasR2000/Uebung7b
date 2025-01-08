@@ -1,0 +1,28 @@
+ P 7.1 (H) Ghost Train.
+ ï Im Auftrag der Deutschen Bahn sollen Sie eine Struktur Zug definieren, die
+	einen Namen (string) sowie ein Waggon-Array darstellt. Die L®ange des
+	Arrays soll 13 sein und ® uber einer globalen Konstante bestimmt werden. Sie
+	ben®otigen auﬂerdem die Struktur Waggon, welche folgende Komponenten
+	beinhalten soll: max. Anzahl der Sitzpl® atze (int), L® ange (double) und Far
+	be (string).
+ ï Erstellen Sie einen beliebigen Zug und 3 beliebige Waggons. F® ugen Sie an
+	schlieﬂend die Waggons dem Zug hinzu.
+ ï SchreibenSie eine Funktion anzahlPlaetze,diedieAnzahlallerSitzpl®atze
+	eines Zuges berechnet und zur® uckgibt. Die Funktion bekommt als Parameter
+	einen Zug und die aktuelle Anzahl der Waggons ® ubergeben.
+ ï Rufen Sie die Funktion anzahlPlaetze auf (in der main-Funktion) und
+	geben Sie die Berechnung aus (cout).
+
+
+ P 7.2 (H) The Train must go on!
+ ï Erweitern Sie ihr Programm so, dass der Benutzer (in einer Schleife) die Wer
+	te f® ur 5 weitere Waggons eingeben kann (cin).
+ ï Die erzeugten Waggons sollen dem bereits existierenden Zug hinzugef®ugt
+	werden.
+ ï F® ugen Sie folgende Einschr®ankung ein: es soll nicht m®oglich sein f® ur einen
+	Waggon weniger als 150 Sitzpl® atze einzugeben. Sollte der Benutzter eine
+	Zahl kleiner als 150 eingeben, so soll folgender Text Unzul®assige Anzahl der
+	Sitzpl®atze ausgegeben werden, und der Wert f® ur die Sitzpl®atze auf 150 ge
+	setzt.
+ ï Rufen Sie die Funktion anzahlPlaetze erneut auf (in der main-Funktion)
+	und geben Sie die Berechnung aus (cout).
